@@ -6,13 +6,70 @@ This repository contains a collection of ER diagram assignments focused on desig
 
 ## 📌 Assignments Included
 
-### 1. Instagram Thrift Creator Store  
+### 1. 📸 Instagram Thrift Creator Store  
 Design of a platform where thrift sellers manage products, orders, and customers through an Instagram-style business setup.
 
-### 2. Fitness Influencer Coaching Platform  
+<details>
+<summary>📄 View Project README</summary>
+
+# 📸 Instagram Thrift Creator Store
+
+## Overview  
+ER diagram for a thrift store system where creators sell products via social platforms.
+
+## Core Entities  
+- Users (sellers & buyers)  
+- Products  
+- Orders  
+- Payments  
+
+## Key Points  
+- One seller → many products  
+- One buyer → many orders  
+- Orders handle product purchases  
+- Payments linked to orders  
+
+## Summary  
+Simple commerce-based design focused on product listings and order flow.
+
+</details>
+
+---
+
+### 2. 🏋️ Fitness Influencer Coaching Platform  
 Design of an online coaching system where trainers manage clients, sell plans, schedule sessions, and track progress.
 
-### 3. More Coming Soon...  
+<details>
+<summary>📄 View Project README</summary>
+
+# 🏋️ Fitness Influencer Coaching Platform
+
+## Overview  
+ER diagram for a coaching platform where trainers manage clients and provide structured fitness services.
+
+## Core Entities  
+- Users (trainers & clients)  
+- Plans (diet/workout)  
+- Subscriptions  
+- Sessions  
+- Progress  
+- Payments  
+
+## Key Points  
+- Trainer → many clients  
+- Client ↔ plans via subscriptions  
+- Sessions for consultations  
+- Progress stored separately  
+- Payments tied to subscriptions  
+
+## Summary  
+Structured design supporting subscriptions, tracking, and coaching workflows.
+
+</details>
+
+---
+
+### 3. 🧩 More Coming Soon...  
 Additional assignments will be added as part of the cohort.
 
 ---
@@ -25,27 +82,12 @@ Additional assignments will be added as part of the cohort.
 
 ---
 
-## 🛠️ What Each Assignment Contains
-
-- ER Diagram (image)  
-- Clearly defined entities 
-- Relationships with cardinality
-- Proper use of primary and foreign keys
-
----
-
 ## 🚀 Goal
 
 Build clean, practical, and scalable database designs that can be used in real applications.
 
 ---
 
-## 📝 Notes
+Please if you have any suggestions, dm me here on my [x/twitter](https://x.com/vickyxcodes)
 
-- Focus is on **design**, not implementation  
-- Diagrams are kept simple and readable  
-- Each assignment targets a different use case
-
----
-
-Dm your Suggestions on my [X/twitter](https://x.com/vickyxcodes)
+Stay consistent and keep building 🔥
