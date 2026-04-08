@@ -69,7 +69,42 @@ Structured design supporting subscriptions, tracking, and coaching workflows.
 
 ---
 
-### 3. 🧩 More Coming Soon...  
+### 3. 🏥 Clinic Appointment and Diagnostics Platform  
+Design of a system where clinics manage doctors, patients, appointments, consultations, tests, and reports.
+
+<details>
+<summary>📄 View Project README</summary>
+
+# 🏥 Clinic Appointment and Diagnostics Platform
+
+## Overview  
+ER diagram for a clinic system handling appointments, consultations, diagnostics, and reports.
+
+## Core Entities  
+- Patients  
+- Doctors  
+- Appointments  
+- Consultations / Visits  
+- Diagnostic Tests  
+- Reports  
+- Payments  
+
+## Key Points  
+- One patient → many appointments/visits  
+- One doctor → many patients  
+- Appointment may or may not lead to consultation  
+- One consultation → multiple tests  
+- Reports linked to tests and visits  
+- Payments tied to appointments or consultations  
+
+## Summary  
+Clean and practical design covering the full clinic flow from booking to diagnosis and reporting.
+
+</details>
+
+---
+
+### 4. 🧩 More Coming Soon...  
 Additional assignments will be added as part of the cohort.
 
 ---
@@ -87,7 +122,5 @@ Additional assignments will be added as part of the cohort.
 Build clean, practical, and scalable database designs that can be used in real applications.
 
 ---
-
-Please if you have any suggestions, dm me here on my [x/twitter](https://x.com/vickyxcodes)
 
 Stay consistent and keep building 🔥
