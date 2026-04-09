@@ -104,7 +104,42 @@ Clean and practical design covering the full clinic flow from booking to diagnos
 
 ---
 
-### 4. 🧩 More Coming Soon...  
+### 4. 🚗 Comic-Con Parking System  
+Design of a multi-zone parking system for a large event with vehicle tracking, spot allocation, sessions, and payments.
+
+<details>
+<summary>📄 View Project README</summary>
+
+# 🚗 Comic-Con Parking System
+
+## Overview  
+ER diagram for an event parking system handling vehicles, parking spots, sessions, and payments across zones and levels.
+
+## Core Entities  
+- Vehicles  
+- Vehicle Categories  
+- Parking Spots  
+- Parking Zones / Levels  
+- Parking Sessions  
+- Tickets  
+- Payments  
+
+## Key Points  
+- One vehicle → many parking sessions  
+- One spot → reused across sessions  
+- Sessions store entry & exit time  
+- Spots belong to zones/levels  
+- Reserved categories (VIP, staff, EV, etc.) supported  
+- Payments linked to sessions  
+
+## Summary  
+Scalable design for managing high-volume event parking with proper tracking and allocation.
+
+</details>
+
+---
+
+### 5. 🧩 More Coming Soon...  
 Additional assignments will be added as part of the cohort.
 
 ---
