@@ -139,8 +139,45 @@ Scalable design for managing high-volume event parking with proper tracking and 
 
 ---
 
-### 5. 🧩 More Coming Soon...  
-Additional assignments will be added as part of the cohort.
+### 5. 🏢 Smart Elevator Control  
+Design of a multi-building system that manages elevators, ride requests, assignments, and maintenance tracking.
+
+<details>
+<summary>📄 View Project README</summary>
+
+# 🏢 Smart Elevator Control
+
+## Overview  
+ER diagram for an intelligent elevator system managing multiple buildings, elevators, requests, and ride logs.
+
+## Core Entities  
+- Buildings  
+- Floors  
+- Elevators  
+- Elevator Shafts  
+- Floor Requests  
+- Ride Assignments / Logs  
+- Maintenance Records  
+
+## Key Points  
+- One building → many floors & elevators  
+- Elevators serve multiple floors  
+- Floors can be served by multiple elevators  
+- Requests generated from floors  
+- Requests assigned to elevators  
+- Ride logs track usage history  
+- Maintenance stored separately from elevator data  
+
+## Summary  
+Structured design for handling real-time elevator operations, tracking, and infrastructure management.
+
+</details>
+
+---
+
+## ✅ Completed Assignments
+
+All assignments in this repository are part of the Web Dev Cohort 2026 database module.
 
 ---
 
